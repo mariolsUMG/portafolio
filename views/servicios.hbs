@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio jmluc</title>
+    <link rel="preload" href="/CSS/normalize.css" as="style">
+    <link rel="stylesheet" href="/CSS/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preload" href="/CSS/styles.css" as="style">
+    <link rel="stylesheet" href="CSS/styles.css"">
+</head>
+<body>
+    {{> header}}
+
+   {{> navbar}}
+    
+    <section class="hero">
+        <div class="contenido-hero">
+            <h2>Diseño y Desarrollo <span> José Mario Lucas Contreras</span></h2> 
+        </div> 
+    </section>
+    
+    <main class="contenedor sombra">
+        <h2>Mis Servicios</h2>
+
+        <div class="servicios">
+            <section class="servicio">
+                <h3>Base de datos</h3>
+                <div class="iconos">
+                    <svg> 
+                        <img class="imgicon" src="/IMG/sql.jpg" alt="">
+                    </svg>
+                </div>
+                <p> manejo de base de datos en SQL Server </p>
+            </section>
+        
+            <section class="servicio">
+                <h3>Aplicaciones</h3>
+                <div class="iconos">
+                    <img class="imgicon" src="/IMG/csharp.jpg" alt="">
+                </div>
+                <p> Desarrollo de aplicaciones web .Net </p>
+            </section>
+
+            <section class="servicio">
+                <h3>Apps Móviles</h3>
+                <div class="iconos">
+                    <svg>
+                        <img class="imgicon" src="/IMG/android-impaxive.jpg" alt="">
+                    </svg>
+                </div>
+                <p> Desarrollo de aplicaciones moviles </p>
+            </section>
+        </div> <!--.servicios-->
+    
+    </main>
+    <br>
+    <br>
+  
+    {{> footer}}
+
+
+</body>
+</html>

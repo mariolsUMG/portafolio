@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio jmluc</title>
+    <link rel="preload" href="/CSS/normalize.css" as="style">
+    <link rel="stylesheet" href="/CSS/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preload" href="/CSS/styles.css" as="style">
+    <link rel="stylesheet" href="CSS/styles.css"">
+</head>
+<body>
+    {{> header}}
+
+   {{> navbar}}
+    
+    <section class="hero">
+        <div class="contenido-hero">
+            <h2>Diseño y Desarrollo <span> José Mario Lucas Contreras</span></h2> 
+        </div> 
+    </section>
+    
+    <main class="contenedor sombra">
+     
+        <section>
+            <h2>Contacto</h2>
+
+            <form class="formulario">
+                <fieldset>
+                    <legend>Contactános llenando todos los campos</legend>
+
+                    <div class="contenedor-campos">
+                        <div class="campo">
+                            <label>Nombre</label>
+                            <input class="input-text" type="text" placeholder="Tu Nombre">
+                        </div>
+
+                        <div class="campo">
+                            <label>Teléfono</label>
+                            <input class="input-text" type="tel" placeholder="Tu Teléfono">
+                        </div>
+
+                        <div class="campo">
+                            <label>Correo</label>
+                            <input class="input-text" type="email" placeholder="Tu Email">
+                        </div>
+                
+                        <div class="campo">
+                            <label>Mensaje</label>
+                            <textarea class="input-text"></textarea>
+                        </div>
+                    </div> <!-- .contenedor-campos -->
+
+                    <div class="alinear-derecha flex">
+                        <input class="boton w-sm-100" type="submit" value="Enviar">
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+
+    </main>
+    <br>
+    
+    {{> footer}}
+
+
+
+</body>
+</html>
